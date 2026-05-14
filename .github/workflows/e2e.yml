@@ -1,4 +1,3 @@
-# .github/workflows/e2e.yml
 env:
   SMS_PROVIDER: herosms
-  SMS_API_KEY: ${{ secrets.HEROSMS_API_KEY }} # 这里会被自动替换成你刚才保存的值
+  SMS_API_KEY: ${{ secrets.HEROSMS_API_KEY }}
